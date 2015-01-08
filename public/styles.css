@@ -24,3 +24,7 @@ span.bold {
 button.button-color {
   color: #1C1A0A;
 }
+
+body {
+  background-image: url("img/squared_metal.png");
+}
