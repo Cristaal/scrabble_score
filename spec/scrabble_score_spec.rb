@@ -12,5 +12,9 @@ describe('String#scrabble_score') do
 
   it('can return scrabble score for long word made of any letters') do
     expect("watermelon".scrabble_score()).to(eq(15))
-  end  
+  end
+
+  it('returns false if the field is left blank') do
+    expect("".scrabble_score()).to(eq(false))
+  end
 end
